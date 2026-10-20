@@ -1,0 +1,209 @@
+{
+  "base": {
+    "m1": 190.4056875,
+    "m2": 152.1,
+    "m3": 133.31540825320513,
+    "headline": 158.60703191773504,
+    "m3_total_all_levels": 160.31540825320513,
+    "m3_state": 27.0
+  },
+  "printed": {
+    "m1": 190.0,
+    "m2": 150.0,
+    "m3": 130.0,
+    "headline_avg_of_printed": 156.66666666666666,
+    "headline_printed": 159.0,
+    "items_sum": 160.9,
+    "items_sum_less_state": 133.9
+  },
+  "other_staff_share_of_m3_total": 0.6391645451706068,
+  "os_labour": 58.5531,
+  "os_overhead": 43.914825,
+  "it_systems": 40.5,
+  "os_labour_printed_formula_gap": 0.5531000000000006,
+  "shared_baseline_note": "Methods 1 and 2 both start from the 2013 estimate of $65B.",
+  "cx_mean_all": 0.35000000000000003,
+  "cx_mean_excl_notional": 0.13799999999999998,
+  "cx_median_all": 0.225,
+  "notional_share_of_cx_sum": 0.6714285714285714,
+  "tornado_top3": [
+    {
+      "driver": "2013 baseline (moves Methods 1 and 2)",
+      "swing_bn": 45.66742500000004,
+      "elasticity": 0.7198203075839417
+    },
+    {
+      "driver": "Volume multiplier (M1)",
+      "swing_bn": 25.387425000000007,
+      "elasticity": 0.4001623492514465
+    },
+    {
+      "driver": "Complexity multiplier (M1)",
+      "swing_bn": 25.387425000000007,
+      "elasticity": 0.4001623492514465
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario": "Report's method, recomputed from printed inputs",
+      "m1": 190.4056875,
+      "m2": 152.1,
+      "m3": 133.31540825320513,
+      "headline": 158.60703191773504,
+      "vs_reported_159": -0.3929680822649573,
+      "25pct_cut_bn": 39.65175797943376
+    },
+    {
+      "scenario": "Complexity: leave out notional amendments",
+      "m1": 160.50494249999997,
+      "m2": 152.1,
+      "m3": 133.31540825320513,
+      "headline": 148.64011691773504,
+      "vs_reported_159": -10.359883082264957,
+      "25pct_cut_bn": 37.16002922943376
+    },
+    {
+      "scenario": "Complexity: median of the six metrics",
+      "m1": 172.77553125,
+      "m2": 152.1,
+      "m3": 133.31540825320513,
+      "headline": 152.73031316773503,
+      "vs_reported_159": -6.269686832264966,
+      "25pct_cut_bn": 38.18257829193376
+    },
+    {
+      "scenario": "Complexity: no adjustment",
+      "m1": 141.04125,
+      "m2": 152.1,
+      "m3": 133.31540825320513,
+      "headline": 142.15221941773504,
+      "vs_reported_159": -16.84778058226496,
+      "25pct_cut_bn": 35.53805485443376
+    },
+    {
+      "scenario": "Compliance roles: net of employment growth",
+      "m1": 190.4056875,
+      "m2": 117.0,
+      "m3": 133.31540825320513,
+      "headline": 146.90703191773505,
+      "vs_reported_159": -12.092968082264946,
+      "25pct_cut_bn": 36.72675797943376
+    },
+    {
+      "scenario": "Other-staff hours: 60 instead of 87",
+      "m1": 190.4056875,
+      "m2": 152.1,
+      "m3": 98.85598325320514,
+      "headline": 147.12055691773506,
+      "vs_reported_159": -11.879443082264942,
+      "25pct_cut_bn": 36.780139229433765
+    },
+    {
+      "scenario": "Other-staff hours: 40 instead of 87",
+      "m1": 190.4056875,
+      "m2": 152.1,
+      "m3": 73.33048325320513,
+      "headline": 138.61205691773503,
+      "vs_reported_159": -20.387943082264968,
+      "25pct_cut_bn": 34.65301422943376
+    },
+    {
+      "scenario": "No overhead loading on other-staff time",
+      "m1": 190.4056875,
+      "m2": 152.1,
+      "m3": 89.40058325320513,
+      "headline": 143.96875691773505,
+      "vs_reported_159": -15.03124308226495,
+      "25pct_cut_bn": 35.99218922943376
+    },
+    {
+      "scenario": "IT share of spend: 24% (the report's footnote) instead of 30%",
+      "m1": 190.4056875,
+      "m2": 152.1,
+      "m3": 125.21540825320514,
+      "headline": 155.90703191773505,
+      "vs_reported_159": -3.092968082264946,
+      "25pct_cut_bn": 38.97675797943376
+    },
+    {
+      "scenario": "Combined: four of the lower alternatives above",
+      "m1": 160.50494249999997,
+      "m2": 117.0,
+      "m3": 90.75598325320513,
+      "headline": 122.75364191773504,
+      "vs_reported_159": -36.24635808226496,
+      "25pct_cut_bn": 30.68841047943376
+    },
+    {
+      "scenario": "Average of the three printed (rounded) figures",
+      "m1": 190.0,
+      "m2": 150.0,
+      "m3": 130.0,
+      "headline": 156.66666666666666,
+      "vs_reported_159": -2.333333333333343,
+      "25pct_cut_bn": 39.166666666666664
+    }
+  ],
+  "scenario_inputs": {
+    "cx_excl_notional": 1.138,
+    "cx_median": 1.225,
+    "role_net": 1.3333333333333333,
+    "emp_growth_assumed": 0.3
+  },
+  "monte_carlo": {
+    "A_symmetric_25pct": {
+      "p10": 143.44654549364313,
+      "median": 158.30424956800346,
+      "p90": 174.03503740620727,
+      "share_at_or_above_159": 0.47535,
+      "spearman_with_headline": {
+        "vol_mult": 0.54,
+        "cx_mult": 0.54,
+        "role_mult": 0.42,
+        "os_hours": 0.31,
+        "it_share": 0.11,
+        "os_oh_mult": 0.28
+      }
+    },
+    "B_alternatives_from_report": {
+      "p10": 113.39158309948313,
+      "median": 126.23673527875792,
+      "p90": 139.14470617391325,
+      "share_at_or_above_159": 0.0,
+      "spearman_with_headline": {
+        "vol_mult": 0.22,
+        "cx_mult": 0.62,
+        "role_mult": 0.62,
+        "os_hours": 0.32,
+        "it_share": 0.14,
+        "os_oh_mult": 0.21
+      }
+    }
+  },
+  "hours_for_m3_equals_printed_130": 84.40227752388387,
+  "regression": {
+    "coef": -22.4,
+    "p": 0.09,
+    "implied_se": 13.212239148538472,
+    "ci95_coef": [
+      -48.29598873113541,
+      3.4959887311354088
+    ],
+    "ci90_coef": [
+      -44.134133399345785,
+      -0.665866600654212
+    ],
+    "effect_per_0p1pp_pct": -2.2399999999999998,
+    "foregone_point_bn": 10.4,
+    "foregone_ci95_bn": [
+      -1.6231376251700114,
+      22.423137625170014
+    ],
+    "note": "Normal approximation backed out from the printed p-value; assumes the model is linear in the share of compliance workers."
+  },
+  "cut25": {
+    "at_reported_160": 40.0,
+    "at_m3_printed_130": 32.5,
+    "at_m1_printed_190": 47.5
+  }
+}

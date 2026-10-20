@@ -1,0 +1,5 @@
+method,printed_bn,recomputed_bn,gap_bn
+Method 1: volume x complexity,190.0,190.4056875,0.4056874999999991
+Method 2: CPI x compliance roles,150.0,152.1,2.0999999999999943
+Method 3: bottom-up (Commonwealth),130.0,133.31540825320513,3.3154082532051348
+Average of the three,156.66666666666666,158.60703191773504,1.9403652510683855

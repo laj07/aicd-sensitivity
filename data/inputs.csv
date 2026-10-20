@@ -1,0 +1,48 @@
+id,name,value,unit,page,status,note
+base_2013,2013 Commonwealth compliance cost (DPMC assessment),65,AUD bn,27,printed,"Printed '$65B (4.2% of GDP)'. Both Method 1 and Method 2 start from this number."
+gdp_share_2013,2013 cost as share of GDP,0.042,fraction,27,printed,Printed 4.2%
+gdp_2024,2024 GDP,2700,AUD bn,39,interpreted,"Printed '$2.7B GDP in 2024' - a typo for $2.7 trillion (4.2% x 2.7T = 113.4B matches the printed $113B)"
+pages_2013,Pages of Commonwealth Acts and instruments 2013,160000,pages,39,printed,Printed 160 000 pages
+pages_2024,Pages of Commonwealth Acts and instruments 2024,199000,pages,39,printed,"Printed 199 000 pages (printed as '24% increase'; 199/160 = 1.244)"
+cx_notional,Complexity metric: notional amendments,1.41,fraction change,39,printed,Printed +141%
+cx_structural,Complexity metric: structural elements,0.40,fraction change,39,printed,Printed +40%
+cx_penalty,Complexity metric: penalty provisions,0.23,fraction change,39,printed,Printed +23%
+cx_defined,Complexity metric: defined terms,0.22,fraction change,39,printed,Printed +22%
+cx_instruments,Complexity metric: legislative instruments share,0.07,fraction change,39,printed,Printed +7%
+cx_interconnect,Complexity metric: interconnectedness,-0.23,fraction change,39,printed,Printed -23%
+cpi_2013_24,CPI increase 2013 to 2024,0.35,fraction,39,printed,Printed 35%
+roles_2013,Compliance roles 2013,30000,roles,39,printed,Printed 30 000
+roles_2024,Compliance roles 2024,52000,roles,39,printed,"Printed 52 000 (printed as '74% increase'; 52/30 = +73.3%)"
+cw_workers,Compliance workers 2024,52000,workers,40,printed,
+fte,FTE share applied to headcounts,0.75,fraction,40,printed,Applied to compliance workers and legal/audit workers
+cw_salary,Compliance worker salary,145000,AUD,40,printed,
+oh_mult,Overhead multiplier (labour),1.75,x,40,printed,"OIA (2024). Overhead = 75% of labour. Page 40 text says '75% of $8B'; 75% of the $5.7B salary base gives the printed $4B, so '$8B' looks like a typo."
+il_workers,Internal legal workers outside professional services,40000,workers,40,printed,
+il_salary,Internal legal blended salary,141000,AUD,40,printed,
+il_share,Internal legal share of time on compliance,0.23,fraction,40,printed,
+ia_workers,Internal audit workers outside professional services,21000,workers,40,printed,
+ia_salary,Internal audit blended salary,135000,AUD,40,printed,
+ia_share,Internal audit share of time on compliance,0.43,fraction,40,printed,
+os_hours,Hours of compliance per worker per year,87,hours,40,printed,"Printed 'Estimated 87 hours' = (9.3 hours per small business per week x 52 weeks x 925,758 small businesses) / 5,164,600 small-business employees = 86.7. The single biggest driver of Method 3."
+os_excl,Compliance/legal/audit hours already counted elsewhere and excluded,96000000,hours,40,printed,"Printed 'Excludes 96,000,000 compliance, legal, audit hours'. Subtracted from total hours before applying the wage."
+os_workers,Total workers,14300000,workers,40,printed,
+os_wage,Average hourly wage,51,AUD per hour,40,printed,
+it_spend,Total IT spend,135,AUD bn,40,printed,Gartner 2024 per the report's source column
+it_share,Share of IT spend attributed to compliance,0.30,fraction,40,printed,Printed 30%
+el_workers,External legal workers in professional services,63000,workers,40,printed,
+el_rev,Revenue per FTE (external legal),340000,AUD,40,printed,
+el_share,External legal share of time on compliance,0.23,fraction,40,printed,
+ea_fees,Total audit fees,0.823,AUD bn,40,printed,Printed $823M
+ea_div,Divisor applied to audit fees,0.78,fraction,40,printed,Printed 'total audit fees/78%'
+ea_share,External audit share of time on compliance,0.43,fraction,40,printed,
+state_share_gsp,State compliance cost as share of GSP,0.01,fraction,40,printed,Printed 1% of GSP
+gsp_total,Total gross state product,2700,AUD bn,40,interpreted,"Printed '$2.7B total GSP'; same typo as GDP"
+printed_m1,Printed Method 1 result,190,AUD bn,39,printed,Chart label
+printed_m2,Printed Method 2 result,150,AUD bn,39,printed,Chart label
+printed_m3,Printed Method 3 result (Commonwealth),130,AUD bn,40,printed,"Printed '~$130B'"
+printed_headline,Printed headline,159,AUD bn,27,printed,"Chart label on p.27; text rounds to $160B"
+reg_coef,Regression coefficient (compliance share on investment growth),-22.4,per unit share,42,printed,
+reg_p,Regression p-value,0.09,probability,42,printed,Marginally significant
+reg_effect_per_0p1pp,Printed effect of +0.1pp compliance share on investment growth,-0.023,fraction,26,printed,Printed 2.3% reduction
+reg_foregone,Printed foregone investment in 2025,10.4,AUD bn,26,printed,
+emp_growth,Employment growth used to net out role growth,0.30,fraction,21,assumption,"Report p.21/22 cites 30% labour-market growth for 2010-24, not 2013-24. Verify against ABS Labour Force before relying on it."
